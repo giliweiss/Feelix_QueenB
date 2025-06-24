@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- אתן חייבות שתמיד יהיה עמוד שנקרא index-->
+<html lang="he">
+  <head>
+    <title>hackathon QueenB</title>
+    <meta charset="UTF-8" />
+    <!-- זאת שורה שהופכת את הנראות של האתר לגודל של טלפון-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- זאת שורה שמחברת לCSS-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- את מתכנתות בתוך הבאדי-->
+    <div class="container">
+      <img src="./logo.jpeg" alt="Feelix Logo" class="logo" />
+      <h2>כאן כדי לעזור לכן להתמודד עם מצבים לא נעימים</h2>
+      <h3>האפליקציה שלנו כתובה בלשון נקבה אך מתייחסת לכל המינים</h3>
+
+      <div class="buttons">
+        <button onclick="go_to_href('src/feelings.html')">
+          ?איך אני מרגישה היום
+        </button>
+        <button onclick="go_to_href('src/game.html')">
+          משחק ניפוץ סטיגמות
+        </button>
+        <button onclick="go_to_href('src/us.html')">מי אנחנו?</button>
+      </div>
+    </div>
+
+    <!-- את החיבור לגאווה סקיפט להשאיר תמיד אחרון-->
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+body {
+  background-color: #e6f9f8;
+  font-family: "Varela Round", sans-serif;
+  color: #50857d;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.logo {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #50857d;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #f398a7;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #50857d;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 1.1em;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #f398a7;
+}
